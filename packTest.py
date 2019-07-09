@@ -45,7 +45,6 @@ def unzip_compile(ssh_client,projectname):
     projectname: String.
     """
 
-    ishell = ssh_client.invoke_shell()
 
     print("UNZIPPING FILES AND COMPILING")
     unzipcommand = "unzip "+projectname+".zip"+" -d "+projectname
