@@ -22,7 +22,7 @@ Requirements:
 To run file:
 1) Unzip contents
 2) cd into directory
-3) Install the required packages in a python virtual env: `pipenv Install`
+3) Install the required packages in a python virtual environment: `pipenv Install`
 4) You can run the file with either:
    
     `pipenv run python packTest.py --host=<hostname> --user=<username> --passcode=<passcode> --projectname=<projectname> --filesDir=<filesDir>`
