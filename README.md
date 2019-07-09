@@ -24,11 +24,16 @@ To run file:
 2) cd into directory
 3) Install the required packages in a python virtual env: pipenv Install
 4) You can run the file with either:
-    pipenv run python packTest.py --host=<hostname> --user=<username> --passcode=<passcode> --projectname=<projectname> --filesDir=<filesDir>
+   
+    `pipenv run python packTest.py --host=<hostname> --user=<username> --passcode=<passcode> --projectname=<projectname> --filesDir=<filesDir>`
+   
    or start the virtual env: 
-    pipenv shell
+
+    `pipenv shell`
+   
    then:
-    python packTest.py --host=<hostname> --user=<username> --passcode=<passcode> --projectname=<projectname> --filesDir=<filesDir>
+   
+    `python packTest.py --host=<hostname> --user=<username> --passcode=<passcode> --projectname=<projectname> --filesDir=<filesDir>`
 
 Arguments:
 
