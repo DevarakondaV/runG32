@@ -46,4 +46,18 @@ Arguments:
 |--filesDir    | Yes      | Location of all *.cpp, and *.h files for this project on local machine. |
 
 
+Issues:
+
+If you get the following output: 
+
+`bash: g32: command not found`
+
+Your project did not compile so don't try to run the file. You'll get an error.
+
+You need to locate the g32 executable on your seasnet machine and change the following line in the packTest.py file
+
+line 56:    `compile_command = "/path/to/g32 -o "+projectname+"/"+projectname+" "+projectname+"/"+"*.cpp"`
+
+
+
 
