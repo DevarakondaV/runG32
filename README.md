@@ -1,6 +1,8 @@
 
 This repo contains a python program that zips your CS project, uploads the zipped file to seasnet, unzips and compiles the program. You have the
-option to run your file as well. Compilation errors and warnings are output to your local machine so you never have to directly ssh into seasnet.
+option to run your file as well. Compilation errors and warnings are output to your local machine so you never have to directly ssh into seasnet. 
+
+Note: If you're off campus make sure to connect to the UCLA vpn first.
 
 | platform | Working |
 |----------|-------- |
