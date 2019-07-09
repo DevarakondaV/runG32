@@ -4,7 +4,7 @@ option to run your file as well. Compilation errors and warnings are output to y
 
 Note: If you're off campus make sure to connect to the UCLA vpn first.
 
-| platform | Working |
+| Platform | Working |
 |----------|-------- |
 |Windows 10| Yes     |
 |Mac       | Haven't Testing|
@@ -16,18 +16,18 @@ To run the package:
 
 
 Requirements:
-1) Install python3.7 and add it to path
-2) Install pipenv python [package](https://pypi.org/project/pipenv/): pip install pipenv
+1) Install python3.7 and add it to path.
+2) Install pipenv python [package](https://pypi.org/project/pipenv/): `pip install pipenv`
 
 To run file:
 1) Unzip contents
 2) cd into directory
-3) Install the required packages in a python virtual env: pipenv Install
+3) Install the required packages in a python virtual env: `pipenv Install`
 4) You can run the file with either:
    
     `pipenv run python packTest.py --host=<hostname> --user=<username> --passcode=<passcode> --projectname=<projectname> --filesDir=<filesDir>`
    
-   or start the virtual env: 
+   or start the virtual environment: 
 
     `pipenv shell`
    
@@ -39,9 +39,11 @@ Arguments:
 
 |Argument name | Required | Specifications|
 |--------------|----------|---------------|
-|--host        | No       | defaults to : cs32.seas.ucla.edu. It is the IP address for machine |
-|--user        | Yes      | seasnet username |
-|--passcode    | Yes      | seasnet passcode |
-|--projectname | Yes      | UNIQUE project identifier. This will be the name of the zipped contents, directory, and executable on seasnet. |
+|--host        | No       | Defaults to cs32.seas.ucla.edu. It is the IP address for machine. |
+|--user        | Yes      | Your seasnet username. |
+|--passcode    | Yes      | Your seasnet passcode. |
+|--projectname | Yes      | A UNIQUE project identifier. This will be the name of the zipped contents, directory, and executable on seasnet. |
 |--filesDir    | Yes      | Location of all *.cpp, and *.h files for this project on local machine. |
+
+
 
